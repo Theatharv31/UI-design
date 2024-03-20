@@ -1,0 +1,92 @@
+.section4-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 520px;
+    margin-top: 40px;
+    background-color: #141414;
+  }
+  
+  .cta-container {
+    width: 40%;
+    padding: 20px;
+    background-color: #141414;
+    color: #ffffff;
+    margin: auto;
+    margin-left: 50px;
+    
+  }
+  
+  .cta-content {
+    width: 100%;
+  }
+  
+  .cta-subtitle {
+    font-family: Galactus;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #bef56e;
+  }
+  
+  .cta-text {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    color: #ffffff;
+    width: 434px;
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    width: 220px;
+    height: 51px;
+    padding: 10px 20px;
+    background-color: #bef56e; /* Button background color */
+    color: black; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+   
+    margin-bottom: 10px; /* Add some space below the button */
+  }
+  
+  .banner-container {
+    width: 60%;
+    margin-right: 30px;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    width: 800px;
+    height: 450px;
+    background-image: url('F:\Consistency\Atharv project\UIAssignmentTRIKON\gamingplatform\public\images\last.png'); /* Corrected image path */
+    padding: 10px;
+    background-color: #141414;
+    
+  }
+  @media (max-width: 850px) {
+    .section4-container {
+      flex-direction: column; /* Change flex direction to column */
+      align-items: center; /* Center align items horizontally */
+    }
+  
+    .banner-container {
+      width: 100%; /* Set Banner container width to 100% */
+      margin-right: 0; /* Remove right margin */
+    }
+  
+    .cta-container {
+      width: 80%; /* Adjust CTA container width */
+      margin-left: 0; /* Remove left margin */
+      margin-bottom: 20px; /* Add some space between CTA and Banner */
+    }
+  }
+  
